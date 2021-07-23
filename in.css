@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+    
+main {
+    display: flex;
+    flex-grow: 1;
+}
+
+header {
+    background-color: burlywood;
+    height: 100px;
+}
+
+section {
+    background-color: cadetblue;
+    width: 80%;
+}
+
+aside {
+    background-color: firebrick;
+    width: 20%;
+}
+
+footer {
+    background-color: rgb(11, 39, 11);
+    height: 100px;
+}
